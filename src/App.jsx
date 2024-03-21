@@ -1,5 +1,7 @@
 import './App.css'
+import LineChart from './Component/LineChart/LineChart'
 import NavBar from './Component/NavBar/NavBar'
+import PriceOptions from './Component/PriceOptions/PriceOptions'
 // import DaisyCli from './Component/DaisyCli/DaisyCli'
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <>
     <NavBar></NavBar>
     {/* <DaisyCli></DaisyCli> */}
-      <h1 className='text-4xl bg-gray-500'>Vite + React</h1>
+      <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
     </>
   )
 }
